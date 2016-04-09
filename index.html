@@ -224,25 +224,26 @@
 		</div>
 	</div>
 
-	<section class="footer hero is-primary is-bold">
+	<form action="https://formspree.io/lindsay.langdale@gmail.com" class="footer hero is-primary is-bold">
 		<div class="container" id="contact-form">
 		<h1 class="title is-1" id="footer-title">Pleased to meet you</h1>
-		
-		<p class="control is-grouped">
-		  	<input class="input" type="text" placeholder="Name"></input>
-		  	<input class="input" type="email" placeholder="Email"></input>
-		</p>
-		<p class="control">
-			<textarea class="textarea" placeholder="Message"></textarea>
-		</p>
-		<p class="control">
-			<div class="columns">
-				<div class="column is-4 is-offset-4">
-					<button class="button is-large is-success">Send</button>
+			<p class="control is-grouped">
+			  	<input name="Name" class="input" type="text" placeholder="Name"></input>
+			  	<input name="_replyto" class="input" type="email" placeholder="Email"></input>
+			</p>
+			<p class="control">
+				<textarea name="msgBody" class="textarea" placeholder="Message"></textarea>
+			</p>
+			<input type="text" name="_gotcha" style="display:none" />
+			<input type="text" name="_format" value="plain" style="display:none" />
+			<p class="control">
+				<div class="columns">
+					<div class="column is-4 is-offset-4">
+						<button type="submit" class="button is-large is-success">Send</button>
+					</div>
 				</div>
-			</div>
-		</p>
+			</p>
 	</div>
-	</section>
+	</form>
 </body>
 </html>
