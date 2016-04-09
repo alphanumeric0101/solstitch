@@ -4527,8 +4527,17 @@ header.header, #main, #contact-form {
   font-weight: 500;
 }
 
+.card-image {
+  min-height: 100px;
+}
+
 .header {
   min-height: 15vh;
+}
+
+img.title {
+  min-height: 120px;
+  padding: 15px;
 }
 
 #main {
